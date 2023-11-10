@@ -42,6 +42,7 @@ $(document).ready(function () {
     strings: [
       "React.js Developer",
       "Front End Developer",
+      "MERN Stack Developer",
       "Competitve Programmer",
     ],
     typeSpeed: 100,
@@ -53,6 +54,7 @@ $(document).ready(function () {
     strings: [
       "React.js Developer",
       "Front End Developer",
+      "MERN Stack Developer",
       "Competitve Programmer",
     ],
     typeSpeed: 100,
