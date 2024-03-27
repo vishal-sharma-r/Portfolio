@@ -730,20 +730,16 @@ footer span a:hover {
   }
 }
 
-
 /* Education content */
-.education .title::after
-{
- 
+.education .title::after {
   content: "what i have done";
-
 }
 
-.section{
+.section {
   padding: 4rem 0 2rem;
 }
 
-.bd-grid{
+.bd-grid {
   max-width: 1024px;
   display: grid;
   grid-template-columns: 100%;
@@ -751,66 +747,68 @@ footer span a:hover {
   width: calc(100% - 2rem);
   margin-left: 1rem;
   margin-right: 1rem;
-
 }
 /* ===== EDUCATION =====*/
-.education__container{
-row-gap: 2rem;
+
+.education__container {
+  row-gap: 2rem;
 }
 
-.education__content{
-display: grid;
-grid-template-columns: 1fr max-content 1fr;
+.education__content {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
 }
 
-.education__race,.education__year{
-font-size: 1rem;
-margin-bottom: .25rem;
+.education__race,
+.education__year {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
 }
 
-.education__university,.education__specialty{
-display: block;
-font-size: .75rem;;
+.education__university,
+.education__specialty {
+  display: block;
+  font-size: 0.75rem;
 }
 
-.education__year,.education__university{
-text-align: right;
-} 
-
-.education__time{
-padding: 0 1rem;
-justify-self: center;
+.education__year,
+.education__university {
+  text-align: right;
 }
 
-.education__rounder{
-position: relative;
-display: inline-block;
-width : 12px;
-height: 12px;
-background-color: #CC4B2C;
-border-radius: 50%;
+.education__time {
+  padding: 0 1rem;
+  justify-self: center;
 }
 
-.education__rounder::before{
-content: '';
-position: absolute;
-transform: translate(-4px, -4px);
-width: 20px;
-height: 20px;
-border: 1px solid #CC4B2C;
-border-radius: 50%;
+.education__rounder {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #cc4b2c;
+  border-radius: 50%;
 }
-.education__line{
-display: block;
-height: 90%;
-width: 2px;
-background-color: #CC4B2C;
-transform: translate(6px, -2px);
-} 
-/*
+
+.education__rounder::before {
+  content: "";
+  position: absolute;
+  transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cc4b2c;
+  border-radius: 50%;
+}
+.education__line {
+  display: block;
+  height: 90%;
+  width: 2px;
+  background-color: #cc4b2c;
+  transform: translate(6px, -2px);
+}
+
 @media only screen and (max-width: 600px) {
-  
   .hidden_section {
-      display: none;
+    display: none;
   }
 }
